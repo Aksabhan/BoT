@@ -4,6 +4,9 @@
  * as a stats container
  */
 
+using System;
+
+[Serializable]
 public class Stats
 {
     public float moveSpeed;
