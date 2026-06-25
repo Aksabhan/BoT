@@ -12,6 +12,7 @@ public class Pickup_Base : MonoBehaviour, IPickable {
     }
 
     public SO_Pickup PickItUp() {
+        //Animation? Call UI?
         Destroy(this.gameObject);
         return type;
     }

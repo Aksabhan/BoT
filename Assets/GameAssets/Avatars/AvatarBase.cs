@@ -8,7 +8,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(Rigidbody2D))]
 public class AvatarBase : MonoBehaviour
 {
-    public Stats stats;
+    public SO_Stats stats;
 
     public float speed = 10f;
     //NEW!!!

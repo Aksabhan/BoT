@@ -5,9 +5,11 @@
  */
 
 using System;
+using UnityEngine;
+[CreateAssetMenu(fileName = "SO_Stats", menuName = "Scriptable Objects/SO_Stats")]
 
 [Serializable]
-public class Stats
+public class SO_Stats: ScriptableObject
 {
     public float moveSpeed;
     public float rateOfFire; //time between each shots

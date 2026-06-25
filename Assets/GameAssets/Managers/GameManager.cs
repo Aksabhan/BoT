@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Stats currentStats;
+    public SO_Stats currentStats;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
